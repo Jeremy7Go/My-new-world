@@ -1,5 +1,0 @@
-from requests_html import HTMLSession
-session = HTMLSession()
-url = 'http://xiaoxue.hujiang.com/cyu/chengyudaquan/'
-r = session.get(url)
-print(r.html.text)
